@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "checkJs": false,
+        "baseUrl": "./",
+        "paths": {
+            "#models/*": [
+                "src/models/*"
+            ],
+            "#routes/*": [
+                "src/routes/*"
+            ],
+            "#controllers/*": [
+                "src/controllers/*"
+            ],
+            "#utils/*": [
+                "src/utils/*"
+            ],
+            "#config/*": [
+                "src/config/*"
+            ],
+            "#services/*": [
+                "src/services/*"
+            ],
+            "#validations/*": [
+                "src/validations/*"
+            ],
+            "#types/*": [
+                "src/types/*"
+            ]
+        },
+        "rootDir": "src",
+        "outDir": "dist",
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "./"
+    ],
+    "ts-node": {
+        "files": true
+    }
+}
